@@ -1,0 +1,164 @@
+body, html{
+  margin:0;
+  padding:0;
+  font:300 15px/22px 'Helvetica Neue', Helvetica, Arial;
+}
+
+* {
+  -moz-box-sizing:border-box;
+  box-sizing:border-box;
+}
+
+h1{
+  font-size:60px;
+  font-weight:100;
+  line-height:60px;
+  margin:0;
+}
+
+h2 {
+  font-size:20px;
+  font-weight:400;
+  line-height:30px;
+  margin-bottom:40px;
+}
+
+h3{
+  font-size:24px;
+  font-weight:300;
+  line-height:24px;
+}
+
+h4{
+  font-size:18px;
+  font-weight:300;
+  line-height:18px;
+}
+
+pre, code{
+  font-size:13px;
+  padding:0 20px !important;
+}
+
+hr{
+  background:#eee;
+  border-width:0;
+  height:1px;
+  padding:0;
+  margin:60px 0;
+}
+
+.button{
+  background:#fff;
+  border:2px solid #ddd;
+  border-radius:2px;
+  color:#444;
+  margin-right:20px;
+  display:inline-block;
+  height:40px;
+  line-height:36px;
+  padding:0 30px;
+  text-decoration:none;
+}
+
+.button:hover{
+  border-color:#777;
+  color:#000;
+}
+
+.button.action{
+  border-color:#5EB95E;
+  color:#5EB95E;
+  font-weight:500;
+}
+
+.social{
+  position:absolute;
+  right:20px;
+  top:80px;
+  text-align:right;
+  width:300px;
+  z-index:20;
+}
+
+
+/** ========================================= **/
+
+
+.logo{
+  display:inline;
+  margin:0;
+  padding:0;
+}
+
+#navbar {
+  display:table;
+  padding:80px 0;
+}
+
+#navbar > ul{
+  display:table-cell;
+  list-style:none;
+  margin:0;
+  padding:0;
+  width:100%;
+  vertical-align: middle;
+}
+
+#navbar a{
+  border-radius:2px;
+  color:#444;
+  display:block;
+  margin-left:20px;
+  padding:10px 20px;
+  text-decoration: none;
+}
+
+#navbar a:hover{
+  background:#f7f7f7;
+}
+
+#navbar .active a{
+  background:#5EB95E;
+  color:#fff;
+  cursor:default;
+}
+
+.sections-wrapper {
+  -webkit-overflow-scrolling:touch;
+}
+
+.sections-wrapper > .wrapper {
+  padding: 80px;
+  max-width:800px;
+  width:100%;
+  
+  -webkit-overflow-scrolling:touch;
+}
+
+.example{
+  border:1px solid #ccc;
+  border-radius:2px;
+  height:150px !important;
+}
+
+.example.rows{
+  height:200px !important;
+}
+
+.example .light{
+  background:#eee;
+  padding:20px;
+}
+
+.example.rows .light{
+  padding:0 20px !important;
+}
+
+.example .dark{
+  background:#ddd;
+}
+
+.example .dark > div{
+  padding:20px;
+}

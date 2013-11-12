@@ -1,0 +1,77 @@
+<h3>Complex layouts</h3>
+
+<pre>
+  <code class="language-markup">
+&lt;div class=&quot;grid rows split50&quot;&gt;
+  &lt;div class=&quot;bar&quot;&gt;
+    Header
+  &lt;/div&gt;
+  &lt;div class=&quot;content&quot;&gt;
+    &lt;div class=&quot;grid columns split200&quot;&gt;
+      &lt;div class=&quot;bar&quot;&gt;
+        Sidebar
+      &lt;/div&gt;
+      &lt;div class=&quot;content&quot;&gt;
+        &lt;div class=&quot;grid rows split50 bottom&quot;&gt;
+          &lt;div class=&quot;content&quot;&gt;
+            Content
+          &lt;/div&gt;
+          &lt;div class=&quot;bar&quot;&gt;
+            Footer
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+  </code>
+</pre>
+
+<br>
+<h4>Complex layouts demo</h4>
+
+<div class="grid rows split50 example" style="height:300px !important">
+  <div class="bar light">
+    Header
+  </div>
+  <div class="content">
+    <div class="grid columns split200">
+      <div class="bar dark" style="padding:20px">
+        Sidebar
+      </div>
+      <div class="content">
+        <div class="grid rows split50 bottom">
+          <div class="content">
+            <div style="padding:20px">
+              Content (scrollable)
+              <br>
+              <br>
+              Keep scrolling ...
+              <br>
+              <br>
+              Keep scrolling ...
+              <br>
+              <br>
+              Keep scrolling ...
+              <br>
+              <br>
+              Keep scrolling ...
+              <br>
+              <br>
+              Keep scrolling ...
+              <br>
+              <br>
+              Keep scrolling ...
+              <br>
+              <br>
+              Keep scrolling ...
+            </div>
+          </div>
+          <div class="bar light">
+            Footer
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

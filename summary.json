@@ -1,0 +1,11 @@
+{
+  "title": "Molten.css",
+  "subtitle": "A fixed-fluid, full-width web application css grid",
+  "sections": {
+    "care" :           "Should you care?",
+    "fixed-columns":   "Fixed columns",
+    "fixed-rows":      "Fixed rows",
+    "complex-layouts": "Complex layouts",
+    "browser-support": "Browser support"
+  }
+}
